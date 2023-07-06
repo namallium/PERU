@@ -1,0 +1,251 @@
+@import "~bootstrap/scss/bootstrap";
+// @import "./fontawesome/scss/fontawesome.scss";
+// $fa-font-path: "~font-awesome/fonts";
+@import "~font-awesome/scss/font-awesome";
+
+.App {
+  //margin-left: 140px;
+  //margin-right: 140px;
+}
+
+.bigNavbar {
+  margin-left: 140px;
+  margin-right: 140px;
+  height: 120px;
+  border-bottom: 1px solid #abb8c3;
+  color: #125172;
+
+  .navbar-nav {
+    color: #115172 !important;
+    font-weight: bold;
+  }
+}
+
+
+
+.carouselUncontrolled {
+  margin-left: 140px;
+  margin-right: 140px;
+  border: 1px solid #abb8c3;
+  padding: 5px;
+
+  .carouselImg {
+    max-height: 350px;
+
+    object-fit: cover;
+    object-position: center;
+    overflow: hidden;
+  }
+}
+
+.homeText {
+  margin: 50px 180px 20px 180px;
+  text-align: center;
+  font-family: Arial;
+
+  .homeTextH {
+    font-size: 55px;
+    line-height: 63px;
+    font-weight: 300;
+    color: #115172;
+  }
+
+  .homeTextP {
+    font-size: 28px;
+    line-height: 50px;
+    color: #6d6f71;
+    font-weight: 100;
+  }
+}
+
+.section-home-inner {
+  margin-left: 140px;
+  margin-right: 140px;
+
+  display: flex;
+  text-align: center;
+  margin-top: 60px;
+  align-items: center;
+
+  .section1 {
+    border: 1px solid #E9E9E9;
+    margin: 0px 30px 30px 0px;
+    padding: 35px 20px 10px 20px;
+    width: 260px;
+    height: 400px;
+
+    .style1 {
+      .iconimage {
+        margin-bottom: 30px;
+        //   background-color: rgb(134, 109, 182);
+      }
+    }
+  }
+
+  .section2 {
+    border: 1px solid #E9E9E9;
+    margin: 0px 30px 30px 0px;
+    padding: 35px 20px 10px 20px;
+    width: 260px;
+    height: 400px;
+
+    .style1 {
+      .iconimage {
+        margin-bottom: 30px;
+        // background-color: rgb(192, 102, 107);
+      }
+    }
+  }
+
+  .section3 {
+    border: 1px solid #E9E9E9;
+    margin: 0px 30px 30px 0px;
+    padding: 35px 20px 10px 20px;
+    width: 260px;
+    height: 400px;
+
+    .style1 {
+      .iconimage {
+        margin-bottom: 30px;
+        // background-color: rgb(125, 152, 210);
+      }
+    }
+  }
+
+  .section4 {
+    border: 1px solid #E9E9E9;
+    margin: 0px 30px 30px 0px;
+    padding: 35px 20px 10px 20px;
+    width: 260px;
+    height: 400px;
+
+    .style1 {
+      .iconimage {
+        margin-bottom: 30px;
+        // background-color: rgb(111, 169, 102);
+      }
+    }
+  }
+}
+
+.iconurl a {
+  color: #115172;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.iconmain .iconurl a:after {
+  font-family: FontAwesome;
+  font-size: 1.2em;
+  content: "\f105";
+  position: relative;
+  left: 5px;
+  top: 1px;
+}
+
+#footer {
+  margin-top: 40px;
+  font-size: 14px;
+  background: #f6f6f6;
+  background: url(https://www.peru.pitt.edu/wp-content/themes/experon/images/backgrounds/paper-experon.jpg) repeat;
+  padding: 55px 10px 30px;
+  border-top: 1px solid #E1E1E1;
+
+  max-width: 100%;
+  height: 100%;
+
+  #footer-col1 {
+    margin-right: 2.6%;
+    margin-bottom: 20px;
+    position: relative;
+    float: left;
+  }
+
+  #footer-col2 {
+    margin-right: 2.6%;
+    margin-bottom: 20px;
+    position: relative;
+    float: left;
+  }
+
+  #footer-col3 {
+    text-align: right;
+    margin-right: 2.6%;
+    margin-bottom: 20px;
+    position: relative;
+    float: right;
+  }
+}
+
+#footer-core {
+  margin-left: 140px;
+  margin-right: 140px;
+  display: flow-root;
+}
+
+#footer-core h3 {
+  display: inline-block;
+  color: #2F2F2F;
+  font-size: 20px;
+  margin-bottom: 35px;
+}
+
+#footer-core a {
+  color: #115172 !important;
+  line-height: 25px;
+  cursor: pointer;
+  text-decoration: none
+}
+
+.loginButton {
+  margin-top: 35px !important;
+  overflow: hidden;
+  color: #FFF;
+  text-align: center;
+  background: #115172;
+  border: none;
+  margin: 4px;
+  border: 2px solid rgb(255, 255, 255);
+  height: 50px;
+  width: 90px;
+}
+
+//hexagon
+
+// .iconimage {
+//   top: 30vh;
+//   left: 40%;
+//   position: absolute;
+//   margin: 0 auto;
+//   background-color: rgb(134, 109, 182);
+//   border-radius: 10px;
+//   width: 100px;
+//   height: 63px;
+//   box-sizing: border-box;
+//   transition: all 1s;
+//   border: 0.4vh solid transparent;
+// }
+
+// /* Creating pseudo-class */
+// .iconimage:before,
+// .iconimage:after {
+//   content: "";
+//   border: inherit;
+//   position: absolute;
+//   top: -0.5vh;
+//   left: -0.5vh;
+//   background-color: rgb(134, 109, 182);
+//   border-radius: inherit;
+//   height: 100%;
+//   width: 100%;
+// }
+
+// /* Align them in such a way
+//         that they form a hexagon */
+// .iconimage:before {
+//   transform: rotate(60deg);
+// }
+
+// .iconimage:after {
+//   transform: rotate(-60deg);
+// }
